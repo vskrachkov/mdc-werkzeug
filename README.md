@@ -1,5 +1,5 @@
-MDC (Machine Data Collection)
-=============================
+Using PostgreSQL with Python
+============================
 
 For starting postgres docker container execute:
 

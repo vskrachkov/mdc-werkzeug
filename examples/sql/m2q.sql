@@ -1,4 +1,5 @@
-/*
+/******************************************************************************
+
     Current example realize many-to-many relationship between product and
     customer's purchase order on it in PostgreSQL DBMS.
     +~~~~~~~~~+        +~~~~~~~~~~~~~~~~~~~+        +~~~~~~~~~~~~~~~~~~~+
@@ -25,7 +26,7 @@
             Similarly we have *ON UPDATE* instruction. `CASCADE` in this case
         means that all differences will be copied to dependent rows.
 
- */
+ *****************************************************************************/
 
 CREATE TABLE IF NOT EXISTS product (
     id    SERIAL PRIMARY KEY,

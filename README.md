@@ -9,6 +9,7 @@ For starting postgres docker container execute:
         -e POSTGRES_DB=mdc_database \
         -v /Users/vs/Documents/Draft/PostgresSQL/examples/sql:/docker-entrypoint-initdb.d \
         -v /Users/vs/Documents/Draft/PostgresSQL/src/mdc/db:/database_scripts/mdc \
+        -v /Users/vs/Documents/Draft/PostgresSQL/examples/tutorial:/database_scripts/tutorial \
         -p 5432:5432 \
         -d postgres
 
